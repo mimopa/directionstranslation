@@ -1,13 +1,14 @@
 {
   "name": "directionstranslation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Direction Translation for Traveler",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "JDMC Engineers",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
